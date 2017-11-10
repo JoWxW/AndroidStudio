@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wang_cursus</string>
+    <string name="add_module">add module</string>
+    <string name="del_module">del module</string>
+    <string name="list_sigle">list sigle</string>
+    <string name="list_module">list module</string>
+</resources>

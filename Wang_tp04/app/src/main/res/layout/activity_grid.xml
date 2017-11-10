@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.utt.if26.wang_tp04.GridActivity">
+
+    <GridLayout
+        android:layout_width="366dp"
+        android:layout_height="245dp"
+        android:rowCount="2"
+        android:columnCount="2"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="10dp">
+
+        <Button
+            android:id="@+id/g01"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill"
+            android:text="@string/g01"
+            android:layout_width="190dp"
+            android:layout_height="124dp" />
+
+        <Button
+            android:id="@+id/g02"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill"
+            android:text="@string/g02" />
+
+        <Button
+            android:id="@+id/g03"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill"
+            android:text="@string/g03" />
+
+        <Button
+            android:id="@+id/g04"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill"
+            android:text="@string/g04" />
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
+
